@@ -3,7 +3,7 @@ import * as yup from "yup"
 import { useForm } from "react-hook-form"
 import { yupResolver } from "@hookform/resolvers/yup"
 import { IRegister } from "@/types/auth"
-import authservices from "@/services/auth"
+import authservices from "@/services/auth.service"
 import {Register, useMutation} from "@tanstack/react-query"
 import { useRouter } from "next/router"
 

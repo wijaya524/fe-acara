@@ -17,7 +17,7 @@ export default function RegisterSuccess() {
                    height={180}
                  />
                  <Image
-                   src="/images/generals/success.svg"
+                   src="/images/generals/email-send.svg"
                    alt="login"
                    className="w-full h-auto"
                    width={1024}
@@ -29,7 +29,7 @@ export default function RegisterSuccess() {
              <div> 
                 <p className='text-center font-bold'>Check your email for account activation </p>
              </div>
-             <Button variant='bordered' color='danger' onClick={async () => await router.push('/')}> Back to Home</Button>
+             <Button variant='bordered' color='danger'  onClick={async () => await router.push('/')}> Back to Home</Button>
            </div>
         </div>
     );
