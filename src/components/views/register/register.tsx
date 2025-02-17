@@ -33,9 +33,10 @@ const Register = () => {
       height={1024}
     />
   </div>
-  <div className="w-full md:w-auto">
+  <div className="w-full  md:w-auto">
     <Card>
       <CardBody className="p-6 md:p-8">
+        <div className=" text-center">
         <h2 className="text-2xl font-bold text-danger-500">Create Account</h2>
         <p className="mb-4 text-sm md:text-base">
           Already have an account?&nbsp;
@@ -43,6 +44,7 @@ const Register = () => {
             Login
           </Link>
         </p>
+        </div>
         {errors.root && (
           <p className="text-danger-500 text-sm">{errors.root.message}</p>
         )}
